@@ -1,4 +1,5 @@
 # flask-frontend-template
+
 Minimal example demonstrating flask's templating functionality and how to define basic endpoint.
 
 Do note that this is _NOT_ an example of a production-ready server.
@@ -7,11 +8,13 @@ It is meant as a gentle introduction to the basic concepts involved with creatin
 ## Instructions
 
 Prerequisites:
+
 ```bash
 pip install flask
 ```
 
 Run:
+
 ```bash
 python main.py
 ```
@@ -32,4 +35,3 @@ flask run --host 0.0.0.0 [--port 1337]
 ```
 
 When moving to a production server (e.g. `gunicorn` with `wsgi`), you will specify hosts and ports differently, and the settings in `main.py` will not be relevant since the entry-point will not be `main:__main__` but rather `main:app`
-
